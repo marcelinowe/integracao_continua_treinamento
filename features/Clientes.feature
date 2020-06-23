@@ -1,6 +1,6 @@
-Feature: Is it Friday yet?
-  Everybody wants to know when it's Friday
-  Scenario: Sunday isn't Friday
-    Given today is Sunday
-    When I ask whether it's Friday yet
-    Then I should be told "Nope"
+Feature: Is Jenkins?
+  Test if we are stay in Jenkins
+  Scenario: Is Jenkins instance?
+    Given I am on Jenkins CI
+    When I click on pipeline
+    Then I should see pipeline view
